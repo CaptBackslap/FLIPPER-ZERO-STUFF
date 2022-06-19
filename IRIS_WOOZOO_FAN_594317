@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 00 FF 00 00
+# 
+name: Speed_up
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 16 E9 00 00
+# 
+name: Speed_dwn
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 14 EB 00 00
+# 
+name: Side_2_side
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0A F5 00 00
+# 
+name: Up_dwn
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0E F1 00 00
+# 
+name: Breeze
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0D F2 00 00
+# 
+name: Timer
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 5811 4941 175 962 174 963 174 662 326 737 400 710 427 684 453 684 453 3101 299 9744 427 4403 170 652 428 657 480 2041 222 2009 254 673 453 658 478 658 489 572 565 1983 280 2003 250 678 459 652 485 2064 199 2057 206 2077 176 2140 169 42612 7438 102428 5967 103306 5046 104053 4311 104677 3677 103119 5234 99562 8729 2363 463 96496 9028 2228 598 96504 9030 2227 599 96504 9031 2224 592 96504 9030 2225 591 96506 9028 2226 590
